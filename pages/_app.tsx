@@ -10,7 +10,7 @@ import '../blocks/ProductGrid/ProductGrid.builder'
 import '../blocks/CollectionView/CollectionView.builder'
 import '../blocks/ProductView/ProductView.builder'
 import '../blocks/CloudinaryImage/CloudinaryImage.builder'
-
+import
 Builder.register('insertMenu', {
   name: 'Shopify Collections Components',
   items: [

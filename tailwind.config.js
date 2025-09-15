@@ -5,8 +5,6 @@ module.exports = {
     "./blocks/**/*.{js,ts,jsx,tsx}",
     "./builder/**/*.{js,ts,jsx,tsx}",
   ],
-  theme: {
-    extend: {},
-  },
+  theme: { extend: {} },
   plugins: [],
 };

@@ -53,7 +53,7 @@ const CartSidebarView: FC = () => {
       {isEmpty ? (
         <>
           <Bag />
-          <p className='text-2xl font-bold'>Your cart is </p>
+          <p className="text-2xl font-bold">Your cart is empty</p>
           <Text>
             Biscuit oat cake wafer icing ice cream tiramisu pudding cupcake.
           </Text>

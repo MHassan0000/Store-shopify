@@ -1,0 +1,47 @@
+{
+  "tailwindCSS.includeLanguages": {
+    "typescript": "typescript",
+    "typescriptreact": "typescriptreact",
+    "javascript": "javascript",
+    "javascriptreact": "javascriptreact"
+  },
+  "tailwindCSS.experimental.classRegex": [
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"],
+    ["sx=\\{([^}]*)\\}", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["className\\s*=\\s*[\"'`]([^\"'`]*)[\"'`]", "[\"'`]([^\"'`]*)[\"'`]"]
+  ],
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "css.validate": false,
+  "scss.validate": false,
+  "less.validate": false,
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.rootFontSize": 16,
+  "tailwindCSS.validate": true,
+  "tailwindCSS.lint": {
+    "cssConflict": "warning",
+    "invalidApply": "error",
+    "invalidConfigPath": "error",
+    "invalidScreen": "error",
+    "invalidTailwindDirective": "error",
+    "invalidVariant": "error",
+    "recommendedVariantOrder": "warning"
+  },
+  "tailwindCSS.files.exclude": [
+    "**/.git/**",
+    "**/node_modules/**",
+    "**/.next/**",
+    "**/dist/**"
+  ],
+  "tailwindCSS.classAttributes": [
+    "class",
+    "className",
+    "ngClass"
+  ],
+  "tailwindCSS.colorDecorators": true,
+  "tailwindCSS.suggestions": true,
+  "tailwindCSS.hovers": true,
+  "tailwindCSS.codeActions": true
+}

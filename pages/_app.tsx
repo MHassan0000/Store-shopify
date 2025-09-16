@@ -10,6 +10,7 @@ import '../blocks/ProductGrid/ProductGrid.builder'
 import '../blocks/CollectionView/CollectionView.builder'
 import '../blocks/ProductView/ProductView.builder'
 import '../blocks/CloudinaryImage/CloudinaryImage.builder'
+import '../Sections/Hero/Hero.builder'
 import 'styles/tailwind.css';
 
 Builder.register('insertMenu', {
@@ -33,6 +34,11 @@ Builder.register('insertMenu', {
 Builder.register('insertMenu', {
   name: 'Cloudinary Components',
   items: [{ name: 'CloudinaryImage' }],
+})
+
+Builder.register('insertMenu', {
+  name: 'Sections',
+  items: [{ name: 'Hero', label: 'Hero' }],
 })
 
 const Noop: FC<{ children: React.ReactNode }> = ({ children }) => (

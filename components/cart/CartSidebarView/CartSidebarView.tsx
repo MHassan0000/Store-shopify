@@ -9,6 +9,7 @@ import CartItem from '../CartItem'
 import { BuilderComponent, builder } from '@builder.io/react'
 import env from '@config/env'
 
+
 const CartSidebarView: FC = () => {
   const checkoutUrl = useCheckoutUrl()
   const cart = useCart()

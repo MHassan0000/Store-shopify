@@ -13,6 +13,8 @@ import '../blocks/CloudinaryImage/CloudinaryImage.builder'
 import '../Sections/Hero/Hero.builder'
 import 'styles/tailwind.css';
 
+import { InteractiveHoverButton } from "lib/components/magicui/interactive-hover-button";
+
 Builder.register('insertMenu', {
   name: 'Shopify Collections Components',
   items: [

@@ -129,6 +129,7 @@ const CartItem = ({
               </label>
               <IconButton onClick={() => increaseQuantity(1)}>
                 <Plus width={18} height={18} />
+                
               </IconButton>
             </div>
           </li>

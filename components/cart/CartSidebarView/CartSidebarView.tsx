@@ -8,6 +8,7 @@ import { useCart, useCheckoutUrl } from '@lib/shopify/storefront-data-hooks'
 import CartItem from '../CartItem'
 import { BuilderComponent, builder } from '@builder.io/react'
 import env from '@config/env'
+import { InteractiveHoverButton } from '@lib/components/ui/interactive-hover-button'
 
 
 const CartSidebarView: FC = () => {
@@ -53,7 +54,9 @@ const CartSidebarView: FC = () => {
     >
       {isEmpty ? (
         <>
-          
+          <InteractiveHoverButton>Go back</InteractiveHoverButton>
+
+
           <Bag />
           
           <p className="">Your cart is empty nigger</p>
